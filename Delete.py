@@ -9,7 +9,7 @@ mydb = mysql.connector.connect(
 
 mycursor = mydb.cursor()
 
-sql = "DELETE FROM bienso WHERE time = '12h'"
+sql = "DELETE FROM bienso WHERE soxe = '5 1 G 5 1 9 3 6'"
 
 mycursor.execute(sql)
 

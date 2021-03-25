@@ -9,6 +9,8 @@ mydb = mysql.connector.connect(
 
 mycursor = mydb.cursor()
 
-sql = "DROP TABLE IF EXISTS bienso"
+sql = "DROP TABLE IF EXISTS realtime"
+mycursor.execute(sql)
+sql = "DROP TABLE IF EXISTS data"
 
 mycursor.execute(sql)

@@ -1,0 +1,11 @@
+Open mysql teminal: sudo mysql -u roor -p
+
+Show database: SHOW DATABASES;
+
+USE DATABASES: USE mydatabase;
+
+SHow table in database: SHOW tables;
+
+Choose one in there: DESCRIBE bieso;
+
+Functions for query same to code in folder( insert, .....)

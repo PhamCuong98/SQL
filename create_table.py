@@ -9,4 +9,5 @@ mydb = mysql.connector.connect(
 
 mycursor = mydb.cursor()
 
-mycursor.execute("CREATE TABLE bienso (time VARCHAR(255), day VARCHAR(255), soxe VARCHAR(255))")
+mycursor.execute("CREATE TABLE realtime (time VARCHAR(255), day VARCHAR(255), number VARCHAR(255), ID VARCHAR(255))")
+mycursor.execute("CREATE TABLE data (time VARCHAR(255), day VARCHAR(255), number VARCHAR(255), status VARCHAR(255), ID VARCHAR(255))")
